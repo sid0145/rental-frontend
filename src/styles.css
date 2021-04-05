@@ -1,1 +1,61 @@
 /* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Rubik:ital@1&display=swap");
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:active,
+:hover,
+:focus {
+  outline: 0 !important;
+  outline-offset: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #2c3145;
+}
+
+/* variable define */
+
+:root {
+  --primary-color: #000;
+  --secondary-color: #9f5ba4;
+  --third-color: #f3f3f3;
+  --four-color: #848484;
+  --text-color: #fff;
+  --black-light-color: #2f2f2f;
+}
+body {
+  font-family: "Dancing-Script", sans-serif;
+  font-size: 100%;
+  font-weight: 400;
+}
+a,
+a:hover {
+  text-decoration: none;
+}
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
